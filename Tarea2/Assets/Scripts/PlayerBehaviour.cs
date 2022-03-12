@@ -16,11 +16,11 @@ public class PlayerBehaviour : MonoBehaviour
     private Rigidbody rb;
 
     [Tooltip("How fast the ball moves left/right")]
-    public float dodgeSpeed = 5;
+    public float dodgeSpeed = 1;
 
     [Tooltip("How fast the ball moves forwards automatically")]
     [Range(0, 10)]
-    public float rollSpeed = 5;
+    public float rollSpeed = 1;
 
     // Start is called before the first frame update
     void Start()

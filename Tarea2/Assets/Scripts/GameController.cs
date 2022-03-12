@@ -37,15 +37,20 @@ public class GameController : MonoBehaviour
     /// <summary>
     /// Start is called before the first frame update
     /// </summary>
+    public Canvas menuInicio;
     private void Start()
     {
         // Set our starting point 
-        nextTileLocation = startPoint;
-        nextTileRotation = Quaternion.identity;
-        for (int i = 0; i < initSpawnNum; ++i)
-        {
-            SpawnNextTile(i >= initNoObstacles);
-        }
+        // if(menuInicio.enabled = false){
+            nextTileLocation = startPoint;
+            nextTileRotation = Quaternion.identity;
+            for (int i = 0; i < initSpawnNum; ++i)
+            {
+                SpawnNextTile(i >= initNoObstacles);
+            }
+        // }else{
+        //     Start();
+        // }
     }
 
     /// <summary> 

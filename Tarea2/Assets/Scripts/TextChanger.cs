@@ -7,7 +7,7 @@ using TMPro;
 public class TextChanger : MonoBehaviour
 {
     //para modificar los valores de los labels de texto
-    //Desarrollado por Camilo Andrés Barragán Gómez 3/02/2022
+    //Desarrollado por Camilo Andrï¿½s Barragï¿½n Gï¿½mez 3/02/2022
 
     public TMP_InputField TextoEntry;
     public Text TxtLabel;
@@ -21,7 +21,7 @@ public class TextChanger : MonoBehaviour
         TMPLabel.SetText(texto);
     }
 
-    //Para mostrar la posición del slider
+    //Para mostrar la posiciï¿½n del slider
 
     public Slider SliderEjemplo;
     public TextMeshProUGUI SliderTxt;
